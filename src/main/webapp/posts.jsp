@@ -18,13 +18,13 @@
   padding: 8px;
   text-align:center;
 }
-#list tr:nth-child(even){background-color: #f2f2f2;}
-#list tr:hover {background-color: #ddd;}
+#list tr:nth-child(even){background-color: white;}
+#list tr:hover {background-color: bisque;}
 #list th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
-  background-color: #006bb3;
+  background-color: salmon;
   color: white;
 }
 </style>
@@ -36,7 +36,7 @@
 </script>
 </head>
 <body>
-<h1>자유게시판</h1>
+<h1>🐻 자유게시판 🐻</h1>
 <%
 	BoardDAO boardDAO = new BoardDAO();
 	List<BoardVO> list = boardDAO.getBoardList();
